@@ -11,7 +11,7 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds]
 });
 
-const TOKEN = "MTUxMDY1NjQ4NDU3OTQ3OTYxMg.Gjv8Xi.sFT2cMGbyKIx2XPGGEwY8jKATdmMCmjW30pvSE";
+const TOKEN = process.env.TOKEN;
 const REQUIRED_ROLE_NAME = "Verified";
 
 // ===== DATABASE =====
